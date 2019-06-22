@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录|游戏众筹</title>
+    <link rel="icon" sizes="180*180" href="img/ant.png">
+    <link rel="stylesheet" href="css/login.css"/>
+    <link rel="stylesheet" href="css/icon_font.css">
+</head>
+<body>
+<div class="sign">
+    <div class="main">
+        <h4 class="title">
+            <a class="active" href="login.html">登录</a>
+            <b>·</b>
+            <a href="register.html">注册</a>
+        </h4>
+        <form action="login_check.jsp" accept-charset="UTF-8" method="post">
+            <div class="input-prepend restyle js-normal">
+                <input placeholder="手机号" type="text" name="tel" id="tel"/>
+                <i class="iconfont icon-yonghu"></i>
+            </div>
+
+            <div class="input-prepend">
+                <input placeholder="密码" type="password" name="password" id="password"/>
+                <i class="iconfont icon-mima"></i>
+            </div>
+            <div class="remember-btn">
+                <input type="checkbox" value="true" checked="checked" name=""/>
+                <span>记住我</span>
+            </div>
+            <div class="forget-btn">
+                <a>忘记密码?</a>
+            </div>
+            <input type="submit" value="登录" id="btn" class="sign-in-button"/>
+        </form>
+
+        <!-- 更多登录方式 -->
+        <div class="more-sign">
+            <h6>
+                社交账号登录
+            </h6>
+            <ul>
+                <li><a class="weibo" target="_blank" href=""><i class="iconfont icon-logo-weibo"></i></a></li>
+                <li><a class="weixin" target="_blank" href=""><i class="iconfont icon-weixin"></i></a></li>
+                <li><a class="qq" target="_blank" href=""><i class="iconfont icon-web-icon-"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright">
+            <div class="cr-container">
+                <p class="footer-info">
+                    <a href="#">关于网站</a>
+                    <a href="#">帮助中心</a>
+                    <a href="#">联系我们</a>
+                    <a href="#">法律声明</a>
+                    <a href="#">版权所有</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

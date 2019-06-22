@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册|游戏众筹</title>
+    <link rel="icon" sizes="180*180" href="img/ant.png">
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+    <link rel="stylesheet" type="text/css" href="css/icon_font.css">
+    <script type="text/javascript" src="js/register.js"></script>
+</head>
+<body>
+<div class="sign">
+    <div class="main">
+        <h4 class="title">
+            <a href="login.html">登录</a>
+            <b>·</b>
+            <a class="active" href="register.html">注册</a>
+        </h4>
+        <form action="register_check.jsp" accept-charset="UTF-8" method="post" onsubmit="return checkForm();">
+            <div class="input-prepend">
+                <input onblur="checkName()" type="text" id="username" name="username" placeholder="5-15位">
+                <span id="name_msg"></span>
+                <i class="iconfont icon-yonghu"></i>
+            </div>
+            <div class="input-prepend">
+                <input onblur="checkTel()" type="text" id="tel" name="tel" placeholder="请输入你的手机号">
+                <span id="tel_msg"></span>
+                <i class="iconfont icon-shouji"></i>
+            </div>
+            <div class="input-prepend">
+                <input onblur="checkEmail()" type="text" id="email" name="email" placeholder="输入你的邮箱地址">
+                <span id="email_msg"></span>
+                <i class="iconfont icon-youxiang"></i>
+            </div>
+            <div class="input-prepend">
+                <input onblur="checkPwd1()" type="password" id="password" name="password"
+                       placeholder="提示：字母+数字，字母+特殊字符，数字+特殊字符">
+                <span id="pwd1_msg"></span>
+                <i class="iconfont icon-mima"></i>
+            </div>
+            <div class="input-prepend">
+                <input onblur="checkPwd2()" type="password" id="pass2" placeholder="请再次输入你的登录密码">
+                <span id="pwd2_msg"></span>
+                <i class="iconfont icon-mima"></i>
+            </div>
+            <input type="submit" name="commit" value="注册"
+                   class="sign-up-button" data-disable-with="注册">
+            <p class="sign-up-msg">
+                点击 “注册” 即表示您同意并愿意遵守网站
+                <br>
+                <a target="_blank" href="">用户协议</a>
+                和
+                <a target="_blank" href="">隐私政策</a>
+                。
+            </p>
+        </form>
+
+        <!-- 更多注册方式 -->
+        <div class="more-sign">
+            <h6>
+                社交账号直接注册
+            </h6>
+            <ul>
+                <li><a class="weibo" target="_blank" href=""><i class="iconfont icon-logo-weibo"></i></a></li>
+                <li><a class="weixin" target="_blank" href=""><i class="iconfont icon-weixin"></i></a></li>
+                <li><a class="qq" target="_blank" href=""><i class="iconfont icon-web-icon-"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

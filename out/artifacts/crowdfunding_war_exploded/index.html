@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页|游戏众筹</title>
+    <link rel="icon" sizes="180*180" href="img/ant.png">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<div class="relative">
+    <section
+            class="bg-white flex flex-wrap flex-nowrap-md border-bottom border-grey-400 justify-between w100p">
+        <section class="order-2 order-1-md flex grow-1-md pl3 pl4-md py2 basis50p-md">
+            <a href="uploadToDB.jsp"
+               class="pr3 mr2 flex-sm items-center keyboard-focusable soft-black hover-ksr-green-700">发起项目</a>
+        </section>
+        <section
+                class="justify-end order-3 flex grow-1-md pr3 pr4-sm items-center py2 basis50p-md">
+            <p class="default" id="default">
+                <a href="login.html" class="soft-black hover-ksr-green-700 ml3">登入</a>
+                <a href="register.html" class="soft-black hover-ksr-green-700 ml3">注册</a>
+            </p>
+            <p class="logged" id="logged">
+                <a href="#" class="soft-black hover-ksr-green-700 ml3" id="login-name"></a>
+                <a href="javascript:" class="soft-black hover-ksr-green-700 ml3" id="outlogin">退出</a>
+            </p>
+        </section>
+    </section>
+</div>
+<div class="min-h100vh">
+    <div class="grid-container-full">
+        <div class="border-bottom border-grey-400">
+            <div class="grid-container">
+                <div class="flex mx-4 mx0-md">
+                    <div class="flex justify-center w6"></div>
+                    <nav class="w100p my3 webkit-scrolling auto-scroll-x hide-scrollbar">
+                        <ul class="flex justify-center-md text-nowrap">
+                            <li><a href="#"
+                                   class="type-16 dark-grey-500 mx2 mx3-lg bespoke-hover-transition-bottom-bar hover-dark-grey-500 keyboard-focusable maison-book">动作</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                   class="type-16 dark-grey-500 mx2 mx3-lg bespoke-hover-transition-bottom-bar hover-dark-grey-500 keyboard-focusable maison-book">冒险</a>
+                            </li>
+                            <li><a href="#"
+                                   class="type-16 dark-grey-500 mx2 mx3-lg bespoke-hover-transition-bottom-bar hover-dark-grey-500 keyboard-focusable maison-book">RPG</a>
+                            </li>
+                            <li><a href="#"
+                                   class="type-16 dark-grey-500 mx2 mx3-lg bespoke-hover-transition-bottom-bar hover-dark-grey-500 keyboard-focusable maison-book">射击</a>
+                            </li>
+                            <li><a href="#"
+                                   class="type-16 dark-grey-500 mx2 mx3-lg bespoke-hover-transition-bottom-bar hover-dark-grey-500 keyboard-focusable maison-book">策略</a>
+                            </li>
+                            <li><a href="#"
+                                   class="type-16 dark-grey-500 mx2 mx3-lg bespoke-hover-transition-bottom-bar hover-dark-grey-500 keyboard-focusable maison-book">竞速</a>
+                            </li>
+                            <li><a href="#"
+                                   class="type-16 dark-grey-500 mx2 mx3-lg bespoke-hover-transition-bottom-bar hover-dark-grey-500 keyboard-focusable maison-book">模拟</a>
+                            </li>
+                            <li><a href="#"
+                                   class="type-16 dark-grey-500 mx2 mx3-lg bespoke-hover-transition-bottom-bar hover-dark-grey-500 keyboard-focusable maison-book">休闲</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="flex justify-center w6"></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-container">
+            <section class="mt10 mb6"><h3
+                    class="type-21 type-24-md type-28-lg soft-black cooper-light">游戏</h3>
+                <p class="type-14 type-16-md dark-grey-500 pt2 mb3 cooper-light">
+                    你是想创造未来还是被动跟从未来，一切皆在你的手中。
+                </p>
+            </section>
+        </div>
+        <div class="border-bottom border-grey-400">
+            <div class="grid-container">
+                <div class="pb10-md pb8 flex flex-wrap flex-nowrap-md">
+                    <div class="pt5 mt4-md basis100p basis55p-md pr5-md pr10-lg border-bottom border-bottom-none-md border-right-md border-grey-400">
+                        <section><h3
+                                class="type-12 type-13-md dark-grey-500 text-uppercase mb3 maison-book bold">
+                            精选项目</h3>
+                            <div class="hover-target"><a
+                                    class="block relative keyboard-focusable link-soft-black mx-4 mx0-md"
+                                    href="project.html">
+                                <img class="w100p block"
+                                     src="img/Ori%20and%20the%20Blind%20Forest.jpg"
+                                     alt="Ori and the Blind Forest">
+                            </a><a href="project.html"
+                                   class="link-blue maison-book"><h3
+                                    class="type-21 type-24-md type-28-lg soft-black normal hover-item-text-underline hover-item-ksr-green-700 pt3 pb2 maison-book">
+                                Ori and the Blind Forest</h3>
+                                <p class="type-16 type-18-md soft-black pb4 cooper-light">
+                                    「Ori and the Blind Forest」是Moon Studios 为个人电脑量身订做的动作平台游戏。在这个充满美丽视觉效果的游戏中，诉说着一位勇敢小孤儿的冒险故事。
+                                </p></a>
+                                <div class="pb4 pb0-md">
+                                    <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                            href="#"
+                                            class="keyboard-focusable maison-book"><span
+                                            class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">Moon Studios GmbH</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="pt5 mt4-md pl5-md pl10-lg basis100p basis45p-md"><h3
+                            class="type-12 type-13-md dark-grey-500 text-uppercase mb3 maison-book bold">
+                        向您推荐</h3>
+                        <ul class="mb3">
+                            <li class="border-bottom border-grey-400 py2 py3-lg">
+                                <div class="flex items-center w100p hover-target"><a
+                                        href="#"
+                                        class="pr4 link-soft-black basis35p basis40p-md block link-blue maison-book"
+                                        tabindex="-1">
+                                    <div class="h15 bg-center bg-no-repeat bg-cover"
+                                         style="background-image: url(img/Cities%20Skylines.jpg);">
+                                    </div>
+                                </a>
+                                    <div class="basis65p basis60p-md flex flex-column justify-between">
+                                        <div>
+                                            <a href="#"
+                                               class="type-14 block link-soft-black hover-item-text-underline hover-item-ksr-green-700 link-blue maison-book">Cities: Skylines</a><span
+                                                class="type-12 mt1 bold ksr-green-700 display-none block-md">已筹集86%</span>
+                                            <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                                    href="#"
+                                                    class="keyboard-focusable maison-book"><span
+                                                    class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">Colossal Order Ltd.</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="border-bottom border-grey-400 py2 py3-lg">
+                                <div class="flex items-center w100p hover-target"><a
+                                        href="#"
+                                        class="pr4 link-soft-black basis35p basis40p-md block link-blue maison-book"
+                                        tabindex="-1">
+                                    <div class="h15 bg-center bg-no-repeat bg-cover"
+                                         style="background-image: url(img/American%20Truck%20Simulator.jpg);">
+                                    </div>
+                                </a>
+                                    <div class="basis65p basis60p-md flex flex-column justify-between">
+                                        <div>
+                                            <a href="#"
+                                               class="type-14 block link-soft-black hover-item-text-underline hover-item-ksr-green-700 link-blue maison-book">American Truck Simulator</a><span
+                                                class="type-12 mt1 bold ksr-green-700 display-none block-md percent-funded">已筹集75%</span>
+                                            <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                                    href="#"
+                                                    class="keyboard-focusable blue maison-book"><span
+                                                    class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">SCS Software</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="border-bottom border-grey-400 py2 py3-lg">
+                                <div class="flex items-center w100p hover-target"><a
+                                        href="#"
+                                        class="pr4 link-soft-black basis35p basis40p-md block link-blue maison-book"
+                                        tabindex="-1">
+                                    <div class="h15 bg-center bg-no-repeat bg-cover"
+                                         style="background-image: url(img/OCTOPATH%20TRAVELER™.jpg);">
+                                    </div>
+                                </a>
+                                    <div class="basis65p basis60p-md flex flex-column justify-between">
+                                        <div>
+                                            <a href="#"
+                                               class="type-14 block link-soft-black hover-item-text-underline hover-item-ksr-green-700 link-blue maison-book">OCTOPATH TRAVELER™</a><span
+                                                class="type-12 mt1 bold ksr-green-700 display-none block-md percent-funded">已完成筹集</span>
+                                            <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                                    href="#"
+                                                    class="keyboard-focusable blue maison-book"><span
+                                                    class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">Square Enix, ACQUIRE Corp.</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="mt5 w100p"><a
+                                href="#"
+                                class="keyboard-focusable type-14 link-cobalt-500 maison-book">发现更多项目</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-bottom border-grey-400">
+            <div class="grid-container">
+                <div class="py8">
+                    <div class="flex justify-between flex-row"><h3
+                            class="type-12 type-13-md dark-grey-500 text-uppercase mb3 maison-book bold">
+                        动作</h3><a
+                            href=""
+                            class="keyboard-focusable type-14 display-none block-sm link-cobalt-500 maison-book">发现更多</a><a
+                            href=""
+                            class="keyboard-focusable type-14 block display-none-sm link-cobalt-500 maison-book">发现更多</a>
+                    </div>
+                    <div class="flex flex-row flex-wrap justify-between">
+                        <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                            <div class="hover-target">
+                                <div class="block relative mb0">
+                                    <a href="#"
+                                       class="link-blue maison-book"><img alt="项目"
+                                                                          src="img/Hollow%20Knight.jpg"
+                                                                          class="block w100p">
+                                        <div class="bg-grey-400 w100p" role="progressbar"
+                                             aria-valuenow="3477" aria-valuemin="0"
+                                             aria-valuemax="100">
+                                            <div class="bg-ksr-green-700 h1 "
+                                                 style="width: 100%;"></div>
+                                        </div>
+                                    </a></div>
+                                <a href=""
+                                   class="link-blue maison-book"><h3
+                                        class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">空洞骑士</h3></a>
+                                <a href="#"
+                                    class="link-blue maison-book">
+                                <p class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">
+                                在《空洞骑士》中打造属于自己的冒险之旅！穿越一个庞大却废弃的属于昆虫与英雄的王国，开启
+                                史诗般的冒险旅程。探索幽深的洞穴，与被感染的生物战斗，结识友好又奇异的昆虫，整个游戏都是经典
+                                的手绘 2D 风格。
+                            </p></a>
+                                <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                        href="#"
+                                        class="keyboard-focusable blue maison-book"><span
+                                        class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">Team Cherry</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                            <div class="hover-target">
+                                <div class="block relative mb0">
+                                    <a href="#"
+                                       class="link-blue maison-book"><img alt="项目"
+                                                                          src="img/Bright%20Memory.jpg"
+                                                                          class="block w100p">
+                                        <div class="bg-grey-400 w100p" role="progressbar"
+                                             aria-valuenow="4" aria-valuemin="0"
+                                             aria-valuemax="100">
+                                            <div class="bg-ksr-green-700 h1 "
+                                                 style="width: 4%;"></div>
+                                        </div>
+                                    </a></div>
+                                <a href="#"
+                                   class="link-blue maison-book"><h3
+                                        class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">
+                                    Hegemone Pass</h3></a><a
+                                    href="#"
+                                    class="link-blue maison-book"><p
+                                    class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">
+                                《光明记忆》- 前往空中大陆阻止神秘组织找到古老生物的重生秘密。未来科技与古老文明的作战，感受血腥畅快的厮杀之旅。
+                            </p></a>
+                                <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                        href="#"
+                                        class="keyboard-focusable blue maison-book"><span
+                                        class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">FYQD-Studio</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                            <div class="hover-target">
+                                <div class="block relative mb0">
+                                    <a href="#"
+                                       class="link-blue maison-book"><img alt="项目"
+                                                                          src="img/MONSTER%20HUNTER.jpg"
+                                                                          class="block w100p">
+                                        <div class="bg-grey-400 w100p" role="progressbar"
+                                             aria-valuenow="738" aria-valuemin="0"
+                                             aria-valuemax="100">
+                                            <div class="bg-ksr-green-700 h1 "
+                                                 style="width: 100%;"></div>
+                                        </div>
+                                    </a></div>
+                                <a href="#"
+                                   class="link-blue maison-book"><h3
+                                        class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">
+                                    Monster Hunter: World
+                                </h3></a><a
+                                    href="#"
+                                    class="link-blue maison-book"><p
+                                    class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">新的生命之地。狩猎, 就是本能! 在系列最新作品「Monster Hunter: World」中,玩家可以体验终极的狩猎生活,活用新建构的世界中各种各样的地形与生态环境享受狩猎的惊喜与兴奋。
+                            </p></a>
+                                <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                        href="#"
+                                        class="keyboard-focusable blue maison-book"><span
+                                        class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">CAPCOM Co., Ltd.</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                            <div class="hover-target">
+                                <div class="block relative mb0">
+                                    <a href="#"
+                                       class="link-blue maison-book"><img alt="项目"
+                                                                          src="img/Terraria.jpg"
+                                                                          class="block w100p">
+                                        <div class="bg-grey-400 w100p" role="progressbar"
+                                             aria-valuenow="489" aria-valuemin="0"
+                                             aria-valuemax="100">
+                                            <div class="bg-ksr-green-700 h1 "
+                                                 style="width: 100%;"></div>
+                                        </div>
+                                    </a></div>
+                                <a href="#"
+                                   class="link-blue maison-book"><h3
+                                        class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">Terraria</h3></a><a
+                                    href="#"
+                                    class="link-blue maison-book"><p
+                                    class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">挖掘，战斗，探索，建造！在这个动感十足的冒险游戏里没有什么是不可能的。</p></a>
+                                <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                        href="#"
+                                        class="keyboard-focusable blue maison-book"><span
+                                        class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">Re-Logic</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-bottom border-grey-400">
+            <div class="grid-container">
+                <div class="py8">
+                    <div class="flex justify-between flex-row"><h3
+                            class="type-12 type-13-md dark-grey-500 text-uppercase mb3 maison-book bold">
+                        冒险</h3><a
+                            href=""
+                            class="keyboard-focusable type-14 display-none block-sm link-cobalt-500 maison-book">发现更多</a><a
+                            href=""
+                            class="keyboard-focusable type-14 block display-none-sm link-cobalt-500 maison-book">发现更多</a>
+                    </div>
+                    <div class="flex flex-row flex-wrap justify-between">
+                        <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                            <div class="hover-target">
+                                <div class="block relative mb0">
+                                    <a href="#"
+                                       class="link-blue maison-book"><img alt="项目"
+                                                                          src="img/Human_%20Fall%20Flat.jpg"
+                                                                          class="block w100p">
+                                        <div class="bg-grey-400 w100p" role="progressbar"
+                                             aria-valuenow="3477" aria-valuemin="0"
+                                             aria-valuemax="100">
+                                            <div class="bg-ksr-green-700 h1 "
+                                                 style="width: 100%;"></div>
+                                        </div>
+                                    </a></div>
+                                <a href="#"
+                                   class="link-blue maison-book"><h3
+                                        class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">Human: Fall Flat</h3></a><a
+                                    href="#"
+                                    class="link-blue maison-book"><p
+                                    class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">人类一败涂地是一款与众不同的基于物理特性的开放结局解谜探索游戏。游戏发生于若干飘浮在云中的幻境中。你的目标就是用你仅有的智慧和物理原理解开谜题，从这些荒诞梦境中逃出来。</p></a>
+                                <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                        href="#"
+                                        class="keyboard-focusable blue maison-book"><span
+                                        class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">No Brakes Games</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                            <div class="hover-target">
+                                <div class="block relative mb0">
+                                    <a href="#"
+                                       class="link-blue maison-book"><img alt="项目"
+                                                                          src="img/Sekiro_Shadows%20Die%20Twice.jpg"
+                                                                          class="block w100p">
+                                        <div class="bg-grey-400 w100p" role="progressbar"
+                                             aria-valuenow="4" aria-valuemin="0"
+                                             aria-valuemax="100">
+                                            <div class="bg-ksr-green-700 h1 "
+                                                 style="width: 4%;"></div>
+                                        </div>
+                                    </a></div>
+                                <a href="#"
+                                   class="link-blue maison-book"><h3
+                                        class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">Sekiro™: Shadows Die Twice</h3></a><a
+                                    href="#"
+                                    class="link-blue maison-book"><p
+                                    class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">进入由打造了《黑暗之魂》系列的知名开发商FromSoftware倾力制作的全新冒险，用智慧和力量斩开复仇之路。 决死复仇，夺回荣誉，智杀强敌。</p></a>
+                                <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                        href="#"
+                                        class="keyboard-focusable blue maison-book"><span
+                                        class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">FromSoftware</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                            <div class="hover-target">
+                                <div class="block relative mb0">
+                                    <a href="#"
+                                       class="link-blue maison-book"><img alt="项目"
+                                                                          src="img/Dying%20Light.jpg"
+                                                                          class="block w100p">
+                                        <div class="bg-grey-400 w100p" role="progressbar"
+                                             aria-valuenow="738" aria-valuemin="0"
+                                             aria-valuemax="100">
+                                            <div class="bg-ksr-green-700 h1 "
+                                                 style="width: 100%;"></div>
+                                        </div>
+                                    </a></div>
+                                <a href="#"
+                                   class="link-blue maison-book"><h3
+                                        class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">Dying Light</h3></a><a
+                                    href="#"
+                                    class="link-blue maison-book"><p
+                                    class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">以丧尸横行的末世为背景的开放世界第一人称动作生存游戏。在一个被神秘病毒摧残过后的城市里漫游。收集物资，制作武器并迎战成群的感染者。</p></a>
+                                <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                        href="#"
+                                        class="keyboard-focusable blue maison-book"><span
+                                        class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">Techland</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                            <div class="hover-target">
+                                <div class="block relative mb0">
+                                    <a href="#"
+                                       class="link-blue maison-book"><img alt="项目"
+                                                                          src="img/The%20Forest.jpg"
+                                                                          class="block w100p">
+                                        <div class="bg-grey-400 w100p" role="progressbar"
+                                             aria-valuenow="489" aria-valuemin="0"
+                                             aria-valuemax="100">
+                                            <div class="bg-ksr-green-700 h1 "
+                                                 style="width: 100%;"></div>
+                                        </div>
+                                    </a></div>
+                                <a href="#"
+                                   class="link-blue maison-book"><h3
+                                        class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">The Forest</h3></a><a
+                                    href="#"
+                                    class="link-blue maison-book"><p
+                                    class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">作为一架客机撞车事故的唯一幸存者，你会发现自己身处一个神秘的森林，正在与一个同类相传的变种社会相抗争。在这个可怕的第一人生存恐怖模拟器中建立，探索和生存。</p></a>
+                                <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                        href="#"
+                                        class="keyboard-focusable blue maison-book"><span
+                                        class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">Endnight Games Ltd</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-bottom border-grey-400">
+            <div class="grid-container">
+                <div class="py8">
+                    <div class="flex justify-between flex-row"><h3
+                            class="type-12 type-13-md dark-grey-500 text-uppercase mb3 maison-book bold">
+                        RPG</h3><a
+                            href=""
+                            class="keyboard-focusable type-14 display-none block-sm link-cobalt-500 maison-book">发现更多</a><a
+                            href=""
+                            class="keyboard-focusable type-14 block display-none-sm link-cobalt-500 maison-book">发现更多</a>
+                    </div>
+                    <div class="flex flex-row flex-wrap justify-between">
+                        <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                            <div class="hover-target">
+                                <div class="block relative mb0">
+                                    <a href="#"
+                                       class="link-blue maison-book"><img alt="项目"
+                                                                          src="img/The%20Witcher3%20Wild%20Hunt.jpg"
+                                                                          class="block w100p">
+                                        <div class="bg-grey-400 w100p" role="progressbar"
+                                             aria-valuenow="3477" aria-valuemin="0"
+                                             aria-valuemax="100">
+                                            <div class="bg-ksr-green-700 h1 "
+                                                 style="width: 100%;"></div>
+                                        </div>
+                                    </a></div>
+                                <a href="img/1.gif"
+                                   class="link-blue maison-book"><h3
+                                        class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">The Witcher® 3: Wild Hunt
+                                </h3></a><a
+                                    href="#"
+                                    class="link-blue maison-book"><p
+                                    class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">随着北方领域战乱四起，您接下了此生最为重大的一笔委托：找到预言之子，一件足以改变世界面貌的活生生的武器。</p></a>
+                                <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                        href="#"
+                                        class="keyboard-focusable blue maison-book"><span
+                                        class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">CD PROJEKT RED</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                            <div class="hover-target">
+                                <div class="block relative mb0">
+                                    <a href="#"
+                                       class="link-blue maison-book"><img alt="项目"
+                                                                          src="img/NieR_Automata.jpg"
+                                                                          class="block w100p">
+                                        <div class="bg-grey-400 w100p" role="progressbar"
+                                             aria-valuenow="4" aria-valuemin="0"
+                                             aria-valuemax="100">
+                                            <div class="bg-ksr-green-700 h1 "
+                                                 style="width: 4%;"></div>
+                                        </div>
+                                    </a></div>
+                                <a href="#"
+                                   class="link-blue maison-book"><h3
+                                        class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">NieR:Automata™</h3></a><a
+                                    href="#"
+                                    class="link-blue maison-book"><p
+                                    class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">NieR：Automata讲述了机器人2B，9S和A2的故事，以及他们用强大的机器重新夺回机器驱动的反乌托邦的战斗。</p></a>
+                                <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                        href="#"
+                                        class="keyboard-focusable blue maison-book"><span
+                                        class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">Square Enix, PlatinumGames Inc.</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                            <div class="hover-target">
+                                <div class="block relative mb0">
+                                    <a href="#"
+                                       class="link-blue maison-book"><img alt="项目"
+                                                                          src="img/Divinity%20Original%20Sin%202%20-%20Definitive%20Edition.jpg"
+                                                                          class="block w100p">
+                                        <div class="bg-grey-400 w100p" role="progressbar"
+                                             aria-valuenow="738" aria-valuemin="0"
+                                             aria-valuemax="100">
+                                            <div class="bg-ksr-green-700 h1 "
+                                                 style="width: 100%;"></div>
+                                        </div>
+                                    </a></div>
+                                <a href="#"
+                                   class="link-blue maison-book"><h3
+                                        class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">Divinity: Original Sin 2 - Definitive Edition
+                                </h3></a><a
+                                    href="#"
+                                    class="link-blue maison-book"><p
+                                    class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">这是一部备受期待获奖众多的角色扮演游戏的续作。召集你的团队，探讨战术，左右战局。你最多可以和其他三名玩家合作——但是，最终只有其中一人有机会成为神。</p></a>
+                                <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                        href="#"
+                                        class="keyboard-focusable blue maison-book"><span
+                                        class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">Larian Studios</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                            <div class="hover-target">
+                                <div class="block relative mb0">
+                                    <a href="#"
+                                       class="link-blue maison-book"><img alt="项目"
+                                                                          src="img/Gujian3.jpg"
+                                                                          class="block w100p">
+                                        <div class="bg-grey-400 w100p" role="progressbar"
+                                             aria-valuenow="489" aria-valuemin="0"
+                                             aria-valuemax="100">
+                                            <div class="bg-ksr-green-700 h1 "
+                                                 style="width: 100%;"></div>
+                                        </div>
+                                    </a></div>
+                                <a href="#"
+                                   class="link-blue maison-book"><h3
+                                        class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">古剑奇谭三</h3></a><a
+                                    href="#"
+                                    class="link-blue maison-book"><p
+                                    class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">以写实唯美的风格描绘广阔的山川河岳，将久远的人情世故以全新的画面表现，带给玩家更贴近真实的游戏世界体验！</p></a>
+                                <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                        href="#"
+                                        class="keyboard-focusable blue maison-book"><span
+                                        class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">上海烛龙信息科技有限公司</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-bottom border-grey-400">
+            <div class="grid-container">
+                <div class="py8">
+                    <div class="flex justify-between flex-row"><h3
+                            class="type-12 type-13-md dark-grey-500 text-uppercase mb3 maison-book bold">
+                        射击</h3><a
+                            href=""
+                            class="keyboard-focusable type-14 display-none block-sm link-cobalt-500 maison-book">发现更多</a><a
+                            href=""
+                            class="keyboard-focusable type-14 block display-none-sm link-cobalt-500 maison-book">发现更多</a>
+                    </div>
+                    <div class="flex flex-row flex-wrap justify-between">
+                        <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                            <div class="hover-target">
+                                <div class="block relative mb0">
+                                    <a href="#"
+                                       class="link-blue maison-book"><img alt="项目"
+                                                                          src="img/Shadow%20Warrior%202.jpg"
+                                                                          class="block w100p">
+                                        <div class="bg-grey-400 w100p" role="progressbar"
+                                             aria-valuenow="3477" aria-valuemin="0"
+                                             aria-valuemax="100">
+                                            <div class="bg-ksr-green-700 h1 "
+                                                 style="width: 100%;"></div>
+                                        </div>
+                                    </a></div>
+                                <a href="#"
+                                   class="link-blue maison-book"><h3
+                                        class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">Shadow Warrior 2</h3></a><a
+                                    href="#"
+                                    class="link-blue maison-book"><p
+                                    class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">影子武士2是Flying wild Hog不落俗套的第一人称射击游戏的惊人进化，故事承接前将军Lo Wang的不幸遭遇。</p></a>
+                                <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                        href="#"
+                                        class="keyboard-focusable blue maison-book"><span
+                                        class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">Flying Wild Hog</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                            <div class="hover-target">
+                                <div class="block relative mb0">
+                                    <a href="#"
+                                       class="link-blue maison-book"><img alt="项目"
+                                                                          src="img/Tom%20Clancy's%20Rainbow%20Six%20Siege.jpg"
+                                                                          class="block w100p">
+                                        <div class="bg-grey-400 w100p" role="progressbar"
+                                             aria-valuenow="4" aria-valuemin="0"
+                                             aria-valuemax="100">
+                                            <div class="bg-ksr-green-700 h1 "
+                                                 style="width: 4%;"></div>
+                                        </div>
+                                    </a></div>
+                                <a href="#"
+                                   class="link-blue maison-book"><h3
+                                        class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">Tom Clancy's Rainbow Six® Siege</h3></a><a
+                                    href="#"
+                                    class="link-blue maison-book"><p
+                                    class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">《彩虹六号：围攻》诚邀玩家掌控破坏的艺术，游戏核心是对激烈的近距离对抗，高杀伤力，战术，团队合作和爆破行动。《彩虹六号：围攻》的多人模式继承系列前作的精髓，为激烈的交火和战略交锋创造了新场所。</p></a>
+                                <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                        href="#"
+                                        class="keyboard-focusable blue maison-book"><span
+                                        class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">Ubisoft Montreal</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                            <div class="hover-target">
+                                <div class="block relative mb0">
+                                    <a href="#"
+                                       class="link-blue maison-book"><img alt="项目"
+                                                                          src="img/DOOM.jpg"
+                                                                          class="block w100p">
+                                        <div class="bg-grey-400 w100p" role="progressbar"
+                                             aria-valuenow="738" aria-valuemin="0"
+                                             aria-valuemax="100">
+                                            <div class="bg-ksr-green-700 h1 "
+                                                 style="width: 100%;"></div>
+                                        </div>
+                                    </a></div>
+                                <a href="#"
+                                   class="link-blue maison-book"><h3
+                                        class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">DOOM
+                                </h3></a><a
+                                    href="#"
+                                    class="link-blue maison-book"><p
+                                    class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">你来这里是有原因的。联合航空航天公司在火星上的大规模研究设施被凶猛而强大的恶魔所淹没，只有一个人站在他们的世界和我们的世界之间。作为独立的DOOM Marine，你已被激活做一件事 - 全部杀掉他们。</p></a>
+                                <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                        href="#"
+                                        class="keyboard-focusable blue maison-book"><span
+                                        class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">id Software</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                            <div class="hover-target">
+                                <div class="block relative mb0">
+                                    <a href="#"
+                                       class="link-blue maison-book"><img alt="项目"
+                                                                          src="img/Watch_Dogs®%202.jpg"
+                                                                          class="block w100p">
+                                        <div class="bg-grey-400 w100p" role="progressbar"
+                                             aria-valuenow="489" aria-valuemin="0"
+                                             aria-valuemax="100">
+                                            <div class="bg-ksr-green-700 h1 "
+                                                 style="width: 100%;"></div>
+                                        </div>
+                                    </a></div>
+                                <a href="#"
+                                   class="link-blue maison-book"><h3
+                                        class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">Watch_Dogs® 2</h3></a><a
+                                    href="#"
+                                    class="link-blue maison-book"><p
+                                    class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">欢迎来到技术革命的起源地：旧金山。扮演年轻的聪明黑客马可仕（Marcus），加入最恶名昭彰的黑客团体 DedSec。你的目标：执行史上最大规模的黑客行动。</p></a>
+                                <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                        href="#"
+                                        class="keyboard-focusable blue maison-book"><span
+                                        class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">Ubisoft</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-container">
+            <div class="py8">
+                <div class="flex justify-between flex-row"><h3
+                        class="type-12 type-13-md dark-grey-500 text-uppercase mb3 maison-book bold">
+                    策略</h3><a
+                        href=""
+                        class="keyboard-focusable type-14 display-none block-sm link-cobalt-500 maison-book">发现更多</a><a
+                        href=""
+                        class="keyboard-focusable type-14 block display-none-sm link-cobalt-500 maison-book">发现更多</a>
+                </div>
+                <div class="flex flex-row flex-wrap justify-between">
+                    <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                        <div class="hover-target">
+                            <div class="block relative mb0">
+                                <a href="#"
+                                   class="link-blue maison-book"><img alt="项目"
+                                                                      src="img/Total%20War%20THREE%20KINGDOMS.jpg"
+                                                                      class="block w100p">
+                                    <div class="bg-grey-400 w100p" role="progressbar"
+                                         aria-valuenow="3477" aria-valuemin="0"
+                                         aria-valuemax="100">
+                                        <div class="bg-ksr-green-700 h1 "
+                                             style="width: 100%;"></div>
+                                    </div>
+                                </a></div>
+                            <a href="#"
+                               class="link-blue maison-book"><h3
+                                    class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">Total War: THREE KINGDOMS</h3></a><a
+                                href="#"
+                                class="link-blue maison-book"><p
+                                class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">欢迎来到传奇征战的新时代。
+                            江山如画，奈何诸侯裂土称王，此时需有新人君临天下，变更世道。你需要一统天下，再立新朝，建万古之基业。
+                            从十二位传奇诸侯中做出选择，进而征服天下。征募英雄人物助你完成大业，通过军事、科技、政治和经济手段迫使敌人就范。
+                            你究竟是会建立牢不可破的兄弟之盟并获取敌人的尊敬？还是会两面三刀，行阴谋诡计，成一代奸雄？
+                            传奇等你来书写，但毫无疑问，壮美山河等你征服。</p></a>
+                            <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                    href="#"
+                                    class="keyboard-focusable blue maison-book"><span
+                                    class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">CREATIVE ASSEMBLY</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                        <div class="hover-target">
+                            <div class="block relative mb0">
+                                <a href="#"
+                                   class="link-blue maison-book"><img alt="项目"
+                                                                      src="img/Banner%20of%20the%20Maid.jpg"
+                                                                      class="block w100p">
+                                    <div class="bg-grey-400 w100p" role="progressbar"
+                                         aria-valuenow="4" aria-valuemin="0"
+                                         aria-valuemax="100">
+                                        <div class="bg-ksr-green-700 h1 "
+                                             style="width: 4%;"></div>
+                                    </div>
+                                </a></div>
+                            <a href="#"
+                               class="link-blue maison-book"><h3
+                                    class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">圣女战旗 Banner of the Maid</h3></a><a
+                                href="#"
+                                class="link-blue maison-book"><p
+                                class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">《圣女战旗 Banner of the Maid》是一款以法国大革命时代为背景的策略战棋游戏。玩家将扮演因特殊的才能而改变了命运的少女波利娜•波拿巴，率领军队突破重重难关，在沙龙的美酒和战场的硝烟中，体验那段峥嵘岁月的别样故事。</p></a>
+                            <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                    href="#"
+                                    class="keyboard-focusable blue maison-book"><span
+                                    class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">Azure Flame Studio</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                        <div class="hover-target">
+                            <div class="block relative mb0">
+                                <a href="#"
+                                   class="link-blue maison-book"><img alt="项目"
+                                                                      src="img/Ni%20no%20Kuni™%20II%20Revenant%20Kingdom.jpg"
+                                                                      class="block w100p">
+                                    <div class="bg-grey-400 w100p" role="progressbar"
+                                         aria-valuenow="738" aria-valuemin="0"
+                                         aria-valuemax="100">
+                                        <div class="bg-ksr-green-700 h1 "
+                                             style="width: 100%;"></div>
+                                    </div>
+                                </a></div>
+                            <a href="#"
+                               class="link-blue maison-book"><h3
+                                    class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">Ni no Kuni™ II: Revenant Kingdom</h3></a><a
+                                href="#"
+                                class="link-blue maison-book"><p
+                                class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">化身年轻国王Evan，为自己立了个宏伟的使命，寻找建立新的国度，与一同冒险犯难的伙伴们，将国家团结起来、拯救人民逃离恶魔的魔掌。</p></a>
+                            <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                    href="#"
+                                    class="keyboard-focusable blue maison-book"><span
+                                    class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">Level-5</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basis100p basis43p-sm basis23p-lg pb5 pb3-lg">
+                        <div class="hover-target">
+                            <div class="block relative mb0">
+                                <a href="#"
+                                   class="link-blue maison-book"><img alt="项目"
+                                                                      src="img/ISLANDERS.jpg"
+                                                                      class="block w100p">
+                                    <div class="bg-grey-400 w100p" role="progressbar"
+                                         aria-valuenow="489" aria-valuemin="0"
+                                         aria-valuemax="100">
+                                        <div class="bg-ksr-green-700 h1 "
+                                             style="width: 100%;"></div>
+                                    </div>
+                                </a></div>
+                            <a href="#"
+                               class="link-blue maison-book"><h3
+                                    class="type-16 type-18-md soft-black pt3 pb1 pb2-sm hover-item-text-underline hover-item-ksr-green-700 maison-book">ISLANDERS</h3></a><a
+                                href="#"
+                                class="link-blue maison-book"><p
+                                class="type-13 type-14-md soft-black pb1 pb2-sm cooper-light">ISLANDERS 是一款在色彩缤纷的岛屿上开发兴建城市的风格策略游戏。</p></a>
+                            <div><span class="type-12 dark-grey-500">发起人：</span><a
+                                    href="#"
+                                    class="keyboard-focusable blue maison-book"><span
+                                    class="type-12 dark-grey-500 hover-border-soft-black hover-text-underline border-grey-500">GrizzlyGames</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="border-bottom border-medium py4 mb8"></div>
+<div class="grid-container">
+    <div class="grid-row">
+        <div class="grid-col-12 grid-col-3-sm pb5 pb0-sm">
+            <section><h3 class="text-uppercase mb2 type-13 bold">关于
+            </h3>
+                <ul>
+                    <li><a href="#" class="link-soft-black">关于我们</a></li>
+                    <li><a href="#" class="link-soft-black">联系我们</a></li>
+                    <li><a href="#" class="link-soft-black">加入我们</a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="grid-col-12 grid-col-3-sm pb5 pb0-sm">
+            <section><h3 class="text-uppercase mb2 type-13 bold">支持</h3>
+                <ul>
+                    <li><a href="#" class="link-soft-black">常见问题</a></li>
+                    <li><a href="#" class="link-soft-black">项目规范</a></li>
+                    <li><a href="#" class="link-soft-black">发起人指南</a></li>
+                    <li><a href="#" class="link-soft-black">赞助人指南</a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="grid-col-12 grid-col-3-sm pb5 pb0-sm">
+            <section><h3 class="text-uppercase mb2 type-13 bold">关注</h3>
+                <ul>
+                    <li><a href="#" class="link-soft-black">新浪微博</a></li>
+                    <li><a href="#" class="link-soft-black">微信服务号</a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="grid-col-12 grid-col-3-sm pb5 pb0-sm">
+            <section><h3 class="text-uppercase mb2 type-13 bold">更多内容</h3>
+                <ul>
+                    <li><a href="#" class="link-soft-black">反馈论坛</a></li>
+                    <li><a href="#" class="link-soft-black">侵权申诉</a></li>
+                    <li><a href="#" class="link-soft-black">服务中心</a></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</div>
+<div class="border-bottom border-medium py8"></div>
+<div class="pt4">
+    <div class="grid-container">
+        <div class="grid-row">
+            <div class="grid-col-12">
+                <section>
+                    <ul class="flex flex-wrap type-13">
+                        <li class="mr4 mb2 mb0-sm"><a href="#"
+                                                      class="link-soft-black keyboard-focusable">信任与安全</a>
+                        </li>
+                        <li class="mr4 mb2 mb0-sm"><a href="#"
+                                                      class="link-soft-black keyboard-focusable">使用条款</a></li>
+                        <li class="mr4 mb2 mb0-sm"><a href="#"
+                                                      class="link-soft-black keyboard-focusable">隐私权原则</a>
+                        </li>
+                        <li class="mr4 mb2 mb0-sm"><a href="#"
+                                                      class="link-soft-black keyboard-focusable">Cookie原则</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="js/index_cookie.js"></script>
+</html>
